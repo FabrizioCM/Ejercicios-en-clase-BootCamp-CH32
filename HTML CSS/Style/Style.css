@@ -1,0 +1,154 @@
+/*CSS Hoja De Estilo en Cascada*/
+/***Etiquetas son instrucciones que podemos usar para seleccionar etiquetas en HTML
+
+Etiquetas 
+Clases (Class) cuando usamos clases, podemos realizar la misma
+modificación para todos los elementos que permanezcan en la clase. 
+
+ClassName{}
+identificadores (id)) nos permiten identificar un elemento unico
+
+* nos permite dar formato a lo sobrante 
+h2{
+    color: whitesmoke;
+    background-color: black;
+    background: size 10px 10px;
+    background-size: no-repeat ;
+    font-style: oblique;
+}
+*{color: aqua;}
+**/
+/* Selectores CSS
+Los selectores CSS se utilizan para seleccionar (encontrar) los elementos HTML que se desean diseñar
+Se encuentran:
+- Selectores simples: etiqueta id, Class
+-Selectores combinados: relacionados entre ellos
+-selectores de atributo: selecciona elementos en funcion de 
+un atributo o valor
+-selector de pseudoclase: selecciona elementos por un estado
+-selector de **/
+/*id > class > element > **/
+/*camelCase. Conversion de escritura.
+EXAMPLE myFirstClass
+camelCase
+snake_case
+PascalCase
+*/
+body {
+    background-image: url(/Asset/IMG/97943139-fondos-de-hueso-del-cráneo.jpg);
+}
+
+.Enca {
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    font-style: initial;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: cornsilk;
+    background-size: cover;
+    border-style: ridge;
+    border-color: cornsilk;
+    border-radius: 40px;
+
+}
+
+.F1 {
+    color: black;
+    text-align: center;
+    background-color: white;
+    font-family: cursive;
+    font-weight: lighter;
+    border: 3px;
+    border-style: dashed;
+    border-radius: 5px;
+    border-color: whitesmoke;
+
+}
+
+#Subtitle {
+    color: black;
+    text-align: center;
+}
+
+#Subtitle #footer,
+h2 {
+    text-align: center;
+    text-shadow: 0q;
+    font-style: italic;
+}
+
+/*Colores CSS
+Los colores en CSS se especifican utilizando los nombre de color
+predefinidos o valores RGB, HEX, HSL, etc.*/
+
+#footer {
+    text-align: center;
+    color: black;
+    border-style: solid;
+    border: 9px;
+    border-color: whitesmoke;
+    background-color: white
+}
+
+#container {
+    background-image: url(https://i.pinimg.com/originals/0c/df/36/0cdf36633fee40ab0b2e5b98db541a18.jpg);
+}
+
+#engLand {
+    background-image: url(../Asset/IMG/fondo-periodico-viejo-vista-anterior_23-2149318884.webp);
+    background-position: center;
+}
+
+#container {
+    border-style: solid;
+    border-color: blanchedalmond;
+    border-width: 5px;
+    border-radius: 6px;
+}
+
+.screenShot {
+    width: 120px;
+    margin: 5px;
+    border-radius: 40px;
+}
+
+#Productos {
+    text-align: center;
+    border: solid 8px black;
+    margin: 30px;
+    border-radius: 90px;
+}
+
+.productName {
+    border: solid 2px white;
+    border-style: groove;
+    margin: 20px;
+    border-radius: 90px;
+}
+
+.Description {
+    margin: 2px;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+
+#Title {
+    text-align: center;
+    color: black;
+    /*text-decoration-line:underline ;
+    text-underline-offset: 20px ;*/
+    /*text-decoration-style: double;*/
+    /*letter-spacing: 10px;
+    word-spacing: 5;
+    text-shadow: 1px 1px white;
+    font-style: oblique;*/
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,56 @@
+body{
+font-size:small;
+font-family: 'karla', sans-serif;
+background-color: #f5f7fb;
+overflow-x:hidden ;
+height: 3000px;
+}
+div{
+    background-color: chocolate;
+    padding: 20px;
+}
+.static{
+    position: static;
+}
+.relative{
+    border: 1px solid black;;
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+    
+    
+}
+/*Contenedor que posiciona de manera fija un espacio */
+.fixed{
+position: fixed;
+bottom: 0;
+right: 0;
+z-index: 200;
+}
+
+.container{
+    height: 250px;
+    position: relative;
+}
+/*posicionado en relación con el ancestro posicionado más cercano*/
+.absolute{
+    background-color: white;
+    position: absolute;
+    border: 1px solid black;
+    right: 20px;
+    bottom: 50px;
+}
+ /**El elemento se mantendra deacuerdo al dezplazamiento del mouse del usuario,
+ mientras no se llegue al breakpoint o cordenada se mantiene static**/
+
+.sticky {
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+}
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

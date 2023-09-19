@@ -1,0 +1,13 @@
+*{ 
+    background-color: black;
+
+}    
+    #GitHubButton:hover{
+            background-color: white;
+            border-color: blue;
+            color: blue;
+        }
+.border{
+    border-color: black;
+    border-radius: 25px;
+}

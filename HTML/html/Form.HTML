@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="Form" href="../styles/main.css">
+</head>
+<body>
+    <!--Formulario
+    Los formularios son un elemento interactivo que,
+    generalmente, vemos para registros
+        Action"""-- A donde se enviara la info recolectada dentro del formulario
+-->
+<div class="FormFormat">
+    <h1>¡Registrate!</h1>
+    <form action="../JS/main.js" method="get">
+        <label for="FirstName">Nombre(s):</label>
+            <input type="text" id="FirstName" required>
+            <br><br>
+        <label for="LastName">Apellido(s):</label>
+            <input type="text" id="LastName" required>   
+            <br><br>
+        <label for="Age">Edad:</label>
+            <input type="number" id="Age" min="18"> 
+            <br><br>
+        <label for="eMail">Correo Electronico:</label>
+            <input type="email" id="eMail" required>
+            <br><br>
+        <label for="Password">Contraseña</label>    
+            <input type="password" id="Password">
+            <br><br>
+        <label for="Archive">Cargar Archivo:</label>
+            <input type="file" name="" id="Archive">
+            <br><br>
+        <label for="Pizza">Pizza</label>
+            <input type="checkbox" id="Pizza">
+        <label for="Pasta">Pasta</label>
+            <input type="checkbox" id="Pasta">
+        <label for="Tacos">Tacos</label>
+            <input type="checkbox" id="Tacos">
+        <br><br>
+        <label for="Masculino">Masculino</label>
+            <input type="radio" name="formEx" id="Masculino">
+        <label for="Femenino">Femenino</label>
+            <input type="radio" name="formEx" id="Femenino">
+        <label for="Otros">Otros</label>
+            <input type="radio" name="formEx" id="Otros">
+        <br><br>
+        <label for="enviar">Sumbit:</label>
+        <input type="submit" value="Completar Datos" id="enviar"> <br>
+        <label for="send">Button: </label>
+        <button type="submit"send">Enviar: </button>
+    </form>
+<!--Formularios        Los formularios son un elmento interactivo que, generalmente, vemos se aplican    para registro/inicio de sesion    <form></form>    action="" - Es a donde se va a enviar la informacion recolectada dentro del    formulario    method="" - A los metodos HTTP - GET, POST    inputs - Aquellos campos donde se puede ingresar informacion.    type="" - Indica el tipo de dato que se debe ingresar en este campo    text - Para textos normales, puede servir para nombre, apellidos, etc    number - Para numeros    email - Ayuda al autocompletado a colocar una direccion de correo electronico    password - Oculta los caracteres de texto que por lo regular son visibles    file - Archivo - Permite subir archivos    radio - atributo name nos permite engolar en un mismo grupo los inputs de tipo    radio que se necesiten    checkbox - Nos permite marcar multiples casillas u opciones    submit - Envia la informacion al archivo especificado en el atributo     action=""    button - Hace lo mismo que el input type="submit", solo que en navegadores    mas modernos nos permite trabajar con estilos CSS de manera mas eficiente    label - Que indica la relacion o los datos que se tienen que colocar    dentro de un campo especifico        -->
+</div>
+</body>
+</html>
